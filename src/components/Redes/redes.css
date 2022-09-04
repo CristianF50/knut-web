@@ -1,0 +1,95 @@
+.card-twitter {
+  background: rgba(0, 174, 239, 0.4) !important;
+  backdrop-filter: blur(10px) !important;
+  border-radius: 10px;
+  border: unset;
+
+}
+
+.card-twitch {
+  background: rgba(191, 148, 255, 0.4) !important;
+  backdrop-filter: blur(10px) !important;
+  border-radius: 10px;
+  border: unset;
+}
+
+.card-tiktok {
+  background: rgba(0, 0, 0, 0.4) !important;
+  backdrop-filter: blur(10px) !important;
+  border-radius: 10px;
+  border: unset;
+}
+
+.card-discord {
+  background: rgba(88, 101, 242, 0.4) !important;
+  backdrop-filter: blur(10px) !important;
+  border-radius: 10px;
+  border: unset;
+}
+
+.card-telegram {
+  background: rgba(42, 171, 238, 0.4) !important;
+  backdrop-filter: blur(10px) !important;
+  border-radius: 10px;
+  border: unset;
+}
+
+.card-youtube {
+  background: rgba(255, 0, 0, 0.4) !important;
+  backdrop-filter: blur(10px) !important;
+  border-radius: 10px;
+  border: unset;
+}
+
+.card-facebook {
+  background: rgba(59, 89, 152, 0.4) !important;
+  backdrop-filter: blur(10px) !important;
+  border-radius: 10px;
+  border: unset;
+}
+
+.card-lastfm {
+  background: rgba(213, 16, 7, 0.4) !important;
+  backdrop-filter: blur(10px) !important;
+  border-radius: 10px;
+  border: unset;
+}
+
+.card-instagram {
+  background: linear-gradient(45deg, rgba(64, 93, 230,0.4), rgba(88, 81, 219,0.4), rgba(131, 58, 180,0.4), rgba(193, 53, 132,0.4), rgba(225, 48, 108,0.4), rgba(253, 29, 29,0.4));;
+  backdrop-filter: blur(10px) !important;
+  border-radius: 10px;
+  border: unset;
+}
+
+.redes-list .ant-typography {
+  font-family: "Titillium Web", sans-serif !important;
+  font-size: 25px;
+  line-height: 30px;
+  height: 30px;
+  font-weight: bold;
+  color: #ffffff !important;
+}
+
+.redes-list{
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
+.card-acerca .card-title {
+  font-family: "Titillium Web", sans-serif !important;
+  font-size: 2.5em;
+  font-weight: bold;
+  color: #000000 !important;
+  text-align: center;
+  margin-bottom: 0;
+  margin-top: 0.25em;
+}
+
+.card-acerca .card-text {
+  font-family: "Titillium Web", sans-serif !important;
+  font-size: 20px;
+  font-weight: bold;
+  color: #3d3d3d !important;
+  text-align: left;
+}
