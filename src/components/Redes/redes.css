@@ -93,3 +93,13 @@
   color: #3d3d3d !important;
   text-align: left;
 }
+
+.title {
+  font-family: "Titillium Web", sans-serif !important;
+  font-size: 2.5em;
+  font-weight: bold;
+  color: #FFFFFF !important;
+  text-align: center;
+  margin-bottom: 1em;
+  padding-top: 1em;
+}

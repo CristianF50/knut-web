@@ -4,9 +4,13 @@ import { Link } from "react-router-dom";
 import * as THREE from "three";
 import WAVES from "vanta/dist/vanta.waves.min";
 
-import {AiFillTwitterCircle, AiFillInstagram, AiFillYoutube} from "react-icons/ai";
-import {BsTwitch, BsFacebook} from "react-icons/bs";
-import {FaTiktok, FaDiscord, FaTelegram, FaLastfm} from "react-icons/fa";
+import {
+  AiFillTwitterCircle,
+  AiFillInstagram,
+  AiFillYoutube,
+} from "react-icons/ai";
+import { BsTwitch, BsFacebook } from "react-icons/bs";
+import { FaTiktok, FaDiscord, FaTelegram, FaLastfm } from "react-icons/fa";
 
 import Header from "../Header/header.js";
 import { Content } from "antd/lib/layout/layout.js";
@@ -51,7 +55,6 @@ class Landing extends React.Component {
         handle: "@eisbarknut",
         logo: <AiFillTwitterCircle size={64} fill="#1B92E2" />,
         link: "https://twitter.com/eisbarknut",
-        
       },
       {
         classname: "card-twitch",
@@ -81,7 +84,7 @@ class Landing extends React.Component {
         classname: "card-youtube",
         handle: "Knut Eisbar",
         logo: <AiFillYoutube size={64} fill="#FF0000" />,
-        link: 'https://www.youtube.com/channel/UCllvL-BMuQkQV_ZFqh18H0Q'
+        link: "https://www.youtube.com/channel/UCllvL-BMuQkQV_ZFqh18H0Q",
       },
       {
         classname: "card-facebook",
@@ -107,31 +110,34 @@ class Landing extends React.Component {
       <>
         <Header />
         <Content ref={this.vantaRef}>
+          <Title className="title" strong>
+            REDES SOCIALES
+          </Title>
           <List
             className="redes-list"
             grid={{
               gutter: 16,
               xs: 1,
               sm: 2,
-              md: 4,
-              lg: 4,
-              xl: 6,
+              md: 2,
+              lg: 3,
+              xl: 3,
               xxl: 3,
             }}
             dataSource={data}
             renderItem={(item) => (
               <List.Item className="mt-1">
                 <a href={item.link} target="_blank">
-                <Card className={item.classname}>
-                  <Row align="middle">
-                    <Col xs={8} sm={8} md={8} lg={5} xl={5}>
-                      {item.logo}
-                    </Col>
-                    <Col xs={16} sm={16} md={16} lg={19} xl={19}>
-                      <Text>{item.handle}</Text>
-                    </Col>
-                  </Row>
-                </Card>
+                  <Card className={item.classname}>
+                    <Row align="middle">
+                      <Col xs={8} sm={8} md={8} lg={5} xl={5}>
+                        {item.logo}
+                      </Col>
+                      <Col xs={16} sm={16} md={16} lg={19} xl={19}>
+                        <Text>{item.handle}</Text>
+                      </Col>
+                    </Row>
+                  </Card>
                 </a>
               </List.Item>
             )}

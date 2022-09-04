@@ -17,11 +17,17 @@ class NavFooter extends React.Component {
           <Row align="middle">
             <Col xs={24} sm={24} md={12} lg={12} xl={12}>
               <SiEpicgames size={30} fill="white" />
-              <Text className="ml-1 contact" level={2}> KNUTEISBAR </Text>
+              <Text className="ml-1 contact" level={2}>
+                KNUTEISBAR
+              </Text>
             </Col>
             <Col className="flex-right" xs={24} sm={24} md={12} lg={12} xl={12}>
-              <HiOutlineMail size={30} fill="white" />
-              <Text className="ml-1 contact" level={2}>contacto@knuteisbar.xyz</Text>
+              <a href="mailto:contacto@knuteisbar.xyz">
+                <HiOutlineMail size={30} fill="white" />
+                <Text className="ml-1 contact" level={2}>
+                  contacto@knuteisbar.xyz
+                </Text>
+              </a>
             </Col>
           </Row>
         </Footer>
